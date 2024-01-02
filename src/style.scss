@@ -1,0 +1,11 @@
+.wp-block-create-block-brave-page-up {
+    position: fixed;
+    bottom: #{posUpDown}px;
+    #{posLeftRight}: #{posLeftRightPx}px;
+    display: none;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+}
+
