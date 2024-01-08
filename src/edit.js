@@ -44,6 +44,14 @@ export default function Edit({ attributes, setAttributes }) {
                         onChange={(newInput) => setAttributes({ posLeftRightPx: newInput })}
                     />
                 </PanelBody>
+                <PanelBody title="Z-Index">
+                    <TextControl
+                        type='number'
+                        label="Z-Index"
+                        value={attributes.zIndex}
+                        onChange={(newInput) => setAttributes({ zIndex: newInput })}
+                    />
+                </PanelBody>
             </InspectorControls>
         </>
     );

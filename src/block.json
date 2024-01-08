@@ -84,7 +84,7 @@
     "attributes": {
         "posUpDown": {
             "type": "string",
-            "default": 40
+            "default": "40"
         },
         "posLeftRight": {
             "type": "string",
@@ -93,6 +93,11 @@
         "posLeftRightPx": {
             "type": "number",
             "default": 20
+        },
+        "zIndex": {
+            "type": "number",
+            "default": 3
         }
     }
+    
 }

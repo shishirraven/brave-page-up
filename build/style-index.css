@@ -5,6 +5,7 @@
   position: fixed;
   bottom: posUpDownpx;
   posLeftRight: posLeftRightPxpx;
+  z-index: zIndex;
   display: none;
   padding: 0;
   height: -moz-fit-content;
