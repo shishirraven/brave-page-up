@@ -3,10 +3,6 @@
   \***************************************************************************************************************************************************************************************************************************************/
 .wp-block-create-block-brave-page-up {
   position: fixed;
-  bottom: posUpDownpx;
-  posLeftRight: posLeftRightPxpx;
-  z-index: zIndex;
-  display: none;
   padding: 0;
   height: -moz-fit-content;
   height: fit-content;
@@ -14,19 +10,8 @@
   width: fit-content;
   cursor: pointer;
 }
-
 .wp-block-create-block-brave-page-up button {
   border: none;
-}
-
-.wp-block-create-block-brave-page-up button::before {
-  content: attr(title);
-  position: absolute;
-  border-radius: 5px;
-  font-size: 12px;
-  white-space: nowrap;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=style-index.css.map*/
