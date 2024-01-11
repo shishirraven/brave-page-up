@@ -4,7 +4,8 @@ var __webpack_exports__ = {};
   !*** ./src/view.js ***!
   \*********************/
 document.addEventListener("DOMContentLoaded", function () {
-  window.addEventListener("scroll", function () {
+  // Function to handle scroll event
+  function handleScroll() {
     var scrollPosition = window.scrollY;
     var scrollToTopContainer = document.getElementById("scroll-to-top-container");
     if (scrollPosition > 100) {
@@ -12,7 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       scrollToTopContainer.style.display = "none";
     }
-  });
+  }
+
+  // Event listener for scroll
+  window.addEventListener("scroll", handleScroll);
+
+  // Event listener for click on "scroll-to-top-container"
   var scrollToTopContainer = document.getElementById("scroll-to-top-container");
   scrollToTopContainer.addEventListener("click", function () {
     // For smooth scrolling
@@ -27,6 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     return false;
   });
+
+  // Check initial position on page load
+  handleScroll();
 });
 /******/ })()
 ;
